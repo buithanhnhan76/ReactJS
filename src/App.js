@@ -7,12 +7,15 @@ import './App.css';
 // import Square from './higherOrderComponent/square';
 
 // Axios + ref
-import ToDo from './axios+ref/toDo';
+// import ToDo from './axios+ref/toDo';
+
+// Portal
+import Table from './Portal/table';
 
 function App() {
   return (
     <div className="App">
-      <ToDo />
+      <Table />
     </div>
   );
 }
