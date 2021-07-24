@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react"
+// withTootTip receive a component
 export default function withToolTip(Component){
     return function WithToolTip(props) {
         const [mousein,handleMouse] = useState(false);

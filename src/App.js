@@ -9,13 +9,16 @@ import './App.css';
 // Axios + ref
 // import ToDo from './axios+ref/toDo';
 
-// Portal
-import Table from './Portal/table';
+// Portals
+// import Table from './Portal/table';
+
+// Reducer
+import Count from './useReducer/Count';
 
 function App() {
   return (
     <div className="App">
-      <Table />
+      <Count />
     </div>
   );
 }
