@@ -13,12 +13,15 @@ import './App.css';
 // import Table from './Portal/table';
 
 // Reducer
-import Count from './useReducer/Count';
+// import Count from './useReducer/Count';
+
+// useMemo
+import MeMo from './useMemo/memo';
 
 function App() {
   return (
     <div className="App">
-      <Count />
+      <MeMo />
     </div>
   );
 }
