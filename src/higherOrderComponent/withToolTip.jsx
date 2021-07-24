@@ -11,7 +11,9 @@ export default function withToolTip(Component){
             handleMouse(false);
         }
         return (
-            <Component {...props} mousein={mousein} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>
+            <div onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+            <Component {...props} mousein={mousein} />
+            </div>
          );
     }
 }

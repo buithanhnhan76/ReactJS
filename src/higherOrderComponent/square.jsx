@@ -7,11 +7,10 @@ const Square = (props) => {
     return ( 
         <div>
         <button style={{width:200,height:200}} mousein={props.mousein}
-        onMouseOver={props.onMouseOver} onMouseOut={props.onMouseOut}
         >
         </button>
         <br />
-        {props.mousein && "Some Tool Tip"}
+        {props.mousein && <div>"Some Tool Tip"</div>}
         </div>
      );
 }

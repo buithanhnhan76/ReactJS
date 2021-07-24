@@ -4,24 +4,24 @@ import './App.css';
 // import GrandFather from './BasicHook+Context/granfather';
 
 // higherOrderComponent test
-// import Square from './higherOrderComponent/square';
+import Square from './higherOrderComponent/square';
 
 // Axios + ref
 // import ToDo from './axios+ref/toDo';
 
 // Portals
-// import Table from './Portal/table';
+// import Table from './Portals/table';
 
 // Reducer
 // import Count from './useReducer/Count';
 
 // useMemo
-import MeMo from './useMemo/memo';
+// import MeMo from './useMemo+useCallback/memo';
 
 function App() {
   return (
     <div className="App">
-      <MeMo />
+      <Square />
     </div>
   );
 }
