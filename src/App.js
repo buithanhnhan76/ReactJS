@@ -4,7 +4,7 @@ import './App.css';
 // import GrandFather from './BasicHook+Context/granfather';
 
 // higherOrderComponent test
-import Square from './higherOrderComponent/square';
+import Square from './highOrderComponent/square';
 
 // Axios + ref
 // import ToDo from './axios+ref/toDo';
